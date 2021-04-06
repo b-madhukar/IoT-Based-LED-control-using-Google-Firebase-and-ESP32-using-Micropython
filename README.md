@@ -21,7 +21,8 @@ Step4:
 
 
       1. change the ssid and pwd
-      2. change the link of firebase real time database of your device
+      2. change the firebase link of real-time-database of your device
+      ex:https://home-practice-rtdb.firebaseio.com/LED1
       
       
 **Methods Information:**
