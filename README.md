@@ -2,7 +2,7 @@
 
 
 Step1:
-Gettin ESP32 board ready for MicroPython- https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/
+- Gettin ESP32 board ready for MicroPython- https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/
 Follow the instructions to install Thonny IDE and Steps to run a simple blink application on ESP32
 
 step2: Open Firebase
