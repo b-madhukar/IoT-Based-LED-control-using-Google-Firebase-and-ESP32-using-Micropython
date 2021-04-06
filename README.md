@@ -5,7 +5,7 @@ Step1:
 - Gettin ESP32 board ready for MicroPython- https://randomnerdtutorials.com/getting-started-thonny-micropython-python-ide-esp32-esp8266/
 - Follow the instructions to install Thonny IDE and Steps to run a simple blink application on ESP32
 
-step2: 
+Step2: 
 - Open Firebase 'https://firebase.google.com/'
 - Create a Project 
 - Open Project 
@@ -28,8 +28,8 @@ Step4:
 **Methods Information:**
 
 To read data from firebase cloud use the following method:
-- firebase.get('paste your realtime database device link')
+- **firebase.get**('paste your realtime database device link')
 
 To update data in the firebase cloud use the following method:
-- firebase.put('paste your realtime database device link','Status -ON/OFF')
+- **firebase.put**('paste your realtime database device link','Status -ON/OFF')
            
