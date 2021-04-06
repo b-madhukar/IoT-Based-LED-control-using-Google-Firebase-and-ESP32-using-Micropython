@@ -6,7 +6,7 @@ Step1:
 - Follow the instructions to install Thonny IDE and Steps to run a simple blink application on ESP32
 
 step2: 
-- Open Firebase
+- Open Firebase 'https://firebase.google.com/'
 - Create a Project 
 - Open Project 
 - Go to Realtime database 
@@ -18,6 +18,8 @@ Step3:
 
 Step4:
 - Open main.py and do the following changes
+
+
       1. change the ssid and pwd
       2. change the link of firebase real time database of your device
       
