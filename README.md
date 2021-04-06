@@ -18,8 +18,8 @@ Step3:
 
 Step4:
 - Open main.py and do the following changes
-      - change the ssid and pwd
-      - change the link of firebase real time database of your device
+      1. change the ssid and pwd
+      2. change the link of firebase real time database of your device
       
       
 **Methods Information:**
