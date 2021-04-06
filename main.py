@@ -1,6 +1,7 @@
-import sys
+import sys,time
 import network
 import ufirebase as firebase
+from machine import Pin
 
 def wlan_connect(ssid,pwd):
     wlan = network.WLAN(network.STA_IF)
@@ -13,7 +14,14 @@ def wlan_connect(ssid,pwd):
     
     
 wlan_connect('ssid', 'pwd')
+led=Pin(14,Pin.OUT)
 while True:
-    print(firebase.get('https://home-practice-rtdb.firebaseio.com/LED1'))
+    value=firebase.get('https://home-practice-rtdb.firebaseio.com/LED1')
+    print(value)
+    if(value=='ON')
+    led.on()
+    if(value=='OFF')
+    led.off()
     
     
+
